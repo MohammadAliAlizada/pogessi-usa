@@ -38,7 +38,7 @@ export default function LoginLayout({
           // height: '695px',
           height: `calc(${height}px - 95px)`,
           // Correct way to set background image
-          backgroundImage: 'url(/main.png)',
+          backgroundImage: 'url(/login.png)',
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           backgroundRepeat: 'no-repeat',
