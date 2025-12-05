@@ -5,9 +5,9 @@ const components: Components<Omit<Theme, "components">> = {
   MuiInputLabel: {
     styleOverrides: {
       root: {
-        color: 'white', // default label color
+        color: 'black', // default label color
         '&.Mui-focused': {
-          color: 'white', // color when focused
+          color: 'black', // color when focused
         },
         // '&.Mui-disabled': {
         //   color: '#999999', // color when disabled
