@@ -41,7 +41,7 @@ const renderSearchResults = (
                   display: 'flex',
                   flexDirection: 'column',
                   borderRadius: 4,
-                  width: '250px',
+                  width: { xs: '100%', sm: '250px', md: '250px' },
                   bgcolor: '#E4EBF5',
                   cursor: 'pointer',
                   transition: 'transform 0.2s',
