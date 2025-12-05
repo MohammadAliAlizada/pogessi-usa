@@ -15,7 +15,7 @@ export const themeLight = createTheme({
     },
     text: {
       primary: "#5D6570",
-      secondary: "red",
+      secondary: "black",
       disabled: "#81848A"
     },
     divider: "#F3EFFF"

@@ -8,14 +8,14 @@ import { useEffect } from "react";
 export default function HomePage() {
   const router = useRouter();
 
-// useEffect(() => {
-//  router.push()
-// }, [])
+useEffect(() => {
+ router.push('/login')
+}, [])
 
 
   return (
     <>
-     <SearchComponent />
+     {/* <SearchComponent /> */}
     </>
       
   );

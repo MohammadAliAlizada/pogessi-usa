@@ -14,7 +14,7 @@ export default function LoginPage() {
   const handleLogin = () => {
     // Dummy credentials
     if (email && password ) {
-      router.push("/");
+      router.push("/search");
     } else {
       alert("Invalid Credentials");
     }
