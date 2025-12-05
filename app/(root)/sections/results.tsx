@@ -24,7 +24,7 @@ const renderSearchResults = (results: SearchResult[], setSelectedProduct: (produ
     <Grid container spacing={2} >
         {results.map((result, index) => {
           return (
-            <Grid size={{ xs: 12, sm: results.length === 1 ? 6 : 6, md: results.length === 1 ? 12 :  results.length === 2 ? 6 : results.length === 3 ? 4 : 3 }} key={result.id}>
+            <Grid size={{ xs: 12, sm: results.length === 1 ? 6 : 6, md: results.length === 1 ? 12 :  results.length === 2 ? 6 : results.length === 3 ? 4 : 4 }} key={result.id}>
               <Card
             sx={{
               height: "100%",
