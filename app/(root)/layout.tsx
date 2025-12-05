@@ -1,6 +1,6 @@
 "use client";
 
-import { AppBar, Box, Toolbar, Typography, Button, useTheme, IconButton, Popover } from "@mui/material";
+import { AppBar, Box, Toolbar, Typography, Button, useTheme, IconButton, Popover, Tooltip } from "@mui/material";
 import Link from "next/link";
 import { MAIN_GRADIENT } from "../libs/mui/theme/palette";
 import Image from "next/image";
@@ -75,14 +75,16 @@ function MainLayoutContent({
           <Image alt="" src={'/logo.png'} width={120} height={60}/>
           
           {/* Settings Icon on the right */}
-          <IconButton
-            color="inherit" 
-            aria-label="settings"
-            sx={{ color: 'white' }}
+          <Tooltip title="Settings">
+            <IconButton
+              color="inherit" 
+              aria-label="settings"
+              sx={{ color: 'white' }}
            onClick={handleSettingsClick}
           >
             <SettingsOutlinedIcon />
           </IconButton>
+          </Tooltip>
         </Toolbar>
       </AppBar>
 
