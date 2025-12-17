@@ -427,7 +427,7 @@ const SearchContent: React.FC = () => {
                     >
                       <CameraAltIcon sx={{ fontSize: '20px' }} />
                     </IconButton>
-                    {inputValue.trim() && (
+                    {(inputValue.trim() || selectedImage) && (
                       <IconButton
                         onClick={handleSendMessage}
                         sx={{
@@ -594,7 +594,7 @@ const SearchContent: React.FC = () => {
                       >
                         <CameraAltIcon sx={{ fontSize: '20px' }} />
                       </IconButton>
-                      {inputValue.trim() && (
+                      {(inputValue.trim() || selectedImage) && (
                         <IconButton
                           onClick={handleSendMessage}
                           sx={{
